@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Slider</title>
-    <link rel="stylesheet" href="style.css">n
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="slider">
+        <div class="slides">
+            <img src="image1.jpeg" class="slide">
+            <img src="image2.avif" class="slide">
+            <img src="image3.jpeg" class="slide">
+        </div>
+
+        <button class="prev" onclick="prevSlide()">&#10094</button>
+        <button class="next" onclick="nextSlide()">&#10095</button>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
